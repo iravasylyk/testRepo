@@ -1,0 +1,8 @@
+2015-12-29 13:45:41,554 WARN  [SoapUI] Missing folder [D:\Java\testRepo\TestAutomation\.\ext] for external libraries
+2015-12-29 13:45:41,946 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\ivasylyk\soapui-settings.xml]
+2015-12-29 13:45:42,495 INFO  [SoapUIProGroovyScriptEngineFactory] Setting Script Library to [C:\Program Files\SmartBear\ReadyAPI-1.5.0\bin\scripts]
+2015-12-29 13:45:44,922 INFO  [WsdlProject] Loaded project from [file:/D:/Java/testRepo/TestAutomation/REST-Project-1-soapui-project.xml]
+2015-12-29 13:45:45,309 INFO  [SoapUIProTestCaseRunner] Setting project property [ItemId] to [0978121215]
+2015-12-29 13:45:45,332 INFO  [SoapUIProTestCaseRunner] Running SoapUI tests in project [REST Project 1]
+2015-12-29 13:45:45,334 INFO  [SoapUIProTestCaseRunner] Running Project [REST Project 1], runType = SEQUENTIAL
+2015-12-29 13:45:45,339 INFO  [SoapUIProTestCaseRunner] Project [REST Project 1] finished with status [FINISHED] in 0ms

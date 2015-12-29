@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
+import java.lang.Math;
 /**
  * Unit test for simple App.
  */
@@ -18,7 +18,7 @@ public class AppTest {
 	  @BeforeTest
 	  public void beforeTest(){
       // Go to the Google Suggest home page
-      driver.navigate().to("http://www.google.com/webhp?complete=1&hl=en");
+      driver.navigate().to("http://www.google.com/");
       
 	  }
 	  
@@ -27,6 +27,7 @@ public class AppTest {
       // Enter the query string "Cheese"
       WebElement query = driver.findElement(By.name("q"));
       query.sendKeys("Cheese");
+      Math.abs(-3);
 
 	  }
 	  @AfterTest

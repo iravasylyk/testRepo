@@ -158,7 +158,7 @@
                             <goal>test</goal>
                         </goals>
                         <configuration>
-                            <projectFile>REST-Project-1-soapui-project.xml</projectFile>
+                            <projectFile>${basedir}/REST-Project-1-soapui-project.xml</projectFile>
                             <projectProperties>
                                 <value>ItemId=0978121215</value>
                             </projectProperties>
